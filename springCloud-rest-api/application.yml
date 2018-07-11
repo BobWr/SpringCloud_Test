@@ -1,0 +1,18 @@
+server:
+
+  port: 7073
+
+eureka:
+
+  client:
+
+    serviceUrl: 
+      
+      defaultZone: http://localhost:7070/eureka/
+      
+spring:
+
+  application:
+  
+    name: service-rest
+

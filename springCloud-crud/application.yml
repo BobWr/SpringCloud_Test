@@ -1,0 +1,37 @@
+server:
+
+  port: 7074
+
+eureka:
+
+  client:
+
+    serviceUrl: 
+      
+      defaultZone: http://localhost:7070/eureka/
+      
+spring:
+
+  application:
+  
+    name: service-crud
+    
+  datasource:
+  
+    url: jdbc:mysql://localhost:3306/ssmuser?useSSL=false&amp
+    
+    driverClassName: com.mysql.jdbc.Driver
+    
+    username: root
+    
+    password: 
+
+info: 
+
+  author: 
+  
+    realname: bjk
+    
+    nickname: bjklwr
+    
+    email: bjklwr@outlook.com

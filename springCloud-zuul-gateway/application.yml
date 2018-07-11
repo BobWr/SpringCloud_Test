@@ -1,0 +1,27 @@
+server:
+
+  port: 7072
+
+eureka:
+
+  client:
+
+    serviceUrl: 
+      
+      defaultZone: http://localhost:7070/eureka/
+      
+spring:
+
+  application:
+  
+    name: service-zuul
+
+zuul:
+
+  routes:
+  
+    rest:
+    
+      path: /rest/**
+      
+      serviceId: service-rest
